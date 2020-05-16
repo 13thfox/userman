@@ -1,0 +1,120 @@
+<!-- HEADER -->
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Voucher</title>
+    <style>
+        @media print {
+            .noprint {
+                display: none;
+            }
+
+            .pagebreak {
+                page-break-after: always;
+            }
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            min-width: 500px;
+            color: #080808;
+            font-size: 10px;
+            font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+            line-height: 85%;
+        }
+
+        .13thfox table,
+        table.13thfox {
+            border-collapse: collapse;
+            margin: 2px;
+        }
+
+        .13thfox th,
+        .13thfox td {
+            padding: 2px;
+            border: solid 1px #080808;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .vertical-text {
+            transform: rotate(90deg);
+            padding: 4px;
+            float: right;
+            font-size: 15px;
+            margin-top: 8px;
+            width: 10px;
+            color: #080808;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- END OF HEADER -->
+    <!-- ROW -->
+    <table class="13thfox"
+        style=" display: inline-block; background-color:#080808; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; width: 200px; height:90px;">
+        <tbody>
+            <tr>
+                <td style="width: 200px; text-align: center;"><span
+                        style="font-weight: bold; color: #ffffff; font-size: 11px; font-family: Tahoma;">sekadau.online</span><br>
+                    <table class="13thfox"
+                        style="background-color:#ffffff; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; width: 100%; margin-right: auto; margin-left: auto;">
+                        <tbody>
+                            <tr>
+                                <td style="width: 50%; text-align: center;">Harga</td>
+                                <td style="width: 50%; text-align: center;">%u_moneyPaid%</td>
+                            </tr>
+
+                            <tr>
+                                <td style="width: 50%; text-align: center;">Waktu</td>
+                                <td style="width: 50%; text-align: center;">%u_timeLeft%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="13thfox"
+                        style="border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; width: 100%; margin-right: auto; margin-left: auto;">
+                        <tbody>
+                            <tr>
+                                <td style="width: 50%; text-align: center;"><span
+                                        style="color: #ffffff; font-family: Tahoma;"><b>Voucher</b></span></td>
+
+                            <tr>
+                                <td style="background-color:#FFFFFF; width: 50%; text-align: center;"><span
+                                        style="color: #0f0f0f; font-family: Tahoma;">%u_username%</span>
+                                </td>
+
+                        </tbody>
+                    </table>
+                    <table class="13thfox"
+                        style="border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; width: 100%; margin-right: auto; margin-left: auto;">
+                        <tbody>
+                            <tr>
+
+                                <td style="width: 40%; text-align: center;"><span
+                                        style="color: #ffffff; font-family: Tahoma;">www.sekadau.online</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+    <!-- END OF ROW -->
+    <!--  FOOTER -->
+</body>
+
+</html>
+<!-- END OF FOOTER -->
+<!-- BREAK -->
+<p class="noprint" style="font-size: 10px"> ................ page break ................ </p>
+<p class="pagebreak">&nbsp;</p>
+<!-- END OF BREAK -->
+
+<!-- this code source from 13thfox -->
